@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sass/main.css">
+    <title>invoice</title>
+</head>
+<body>
+   <h6 class="p1">You are welcome to ATC</h6>
+    <h4 class="p2">Payment Portal</h4>
+    <form>
+        <div class="div1">
+            <p class="p3">I am paying for:</p>
+            <input  id="stem" type="radio" name="fav_language" value="stem">
+            <label for="stem">Stem</label>
+            <input  id="cohort" type="radio" name="fav_language" value="cohort">
+            <label for="cohort">Cohort</label>
+            <input   id="QHSE"type="radio" name="fav_language" value="QHSE course">
+            <label for="QHSE course">QHSE course</label>
+            <input  id="consultation" type="radio" name="fav_language" value="consultation">
+            <label for="consultation">Consultation</label>
+        </div>
+        <div class="div2">
+            <label for="email">Verify your email</label><br>
+            <input class="email" type="text" name="email" placeholder="enter your email">
+        </div>
+        <div class="div3">
+            <p>I am paying for:</p>
+           
+            <input type="radio" name="fav_language" value="full payment">
+            <label for="full payment">full payment</label>
+            <input  id="radio" type="radio" name="fav_language" value="part payment">
+            <label for="part payment">part payment</label>
+        </div>
+        <div id="payment">
+            <label for="payment">Enter amount</label>
+            <input  id="amount"type="tel" name="payment" placeholder="Enter your first payment">
+        </div>
+        <p id="para">you are about to pay a sum of </p>
+    </form>
+    <button class="btn">Proceed to Payment</button>
+    <script src="index.js"></script>
+
+</body>
+</html>
