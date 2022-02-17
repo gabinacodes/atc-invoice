@@ -8,24 +8,27 @@
     <title>invoice</title>
 </head>
 <body>
-   <h6 class="p1">You are welcome to ATC</h6>
+ <div class="div">
+    <h6 class="p1">You are welcome to ATC</h6>
     <h4 class="p2">Payment Portal</h4>
     <form>
         <div class="div1">
             <p class="p3">I am paying for:</p>
-            <input  id="stem" type="radio" name="fav_language" value="stem">
+            <input  id="stem" type="radio" name="fav_language" value="for stem">
             <label for="stem">Stem</label>
-            <input  id="cohort" type="radio" name="fav_language" value="cohort">
+            <input  id="cohort" type="radio" name="fav_language" value="for cohort">
             <label for="cohort">Cohort</label>
-            <input   id="QHSE"type="radio" name="fav_language" value="QHSE course">
+            <input   id="QHSE"type="radio" name="fav_language" value="for QHSE course">
             <label for="QHSE course">QHSE course</label>
-            <input  id="consultation" type="radio" name="fav_language" value="consultation">
+            <input  id="consultation" type="radio" name="fav_language" value="for consultation">
             <label for="consultation">Consultation</label>
         </div>
         <div class="div2">
             <label for="email">Verify your email</label><br>
             <input class="email" type="text" name="email" placeholder="enter your email">
         </div>
+    </form>
+    <form>
         <div class="div3">
             <p>I am paying for:</p>
            
@@ -36,12 +39,13 @@
         </div>
         <div id="payment">
             <label for="payment">Enter amount</label>
-            <input  id="amount"type="tel" name="payment" placeholder="Enter your first payment">
+            <input  id="amount"type="text" name="payment" placeholder="Enter your first payment">
         </div>
         <p id="para">you are about to pay a sum of </p>
     </form>
     <button class="btn">Proceed to Payment</button>
     <script src="index.js"></script>
 
+ </div>
 </body>
 </html>
